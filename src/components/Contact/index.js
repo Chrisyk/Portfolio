@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
             
             <div className='self'>
-            <img src={require('../../assets/images/selfie.jpg')} alt='self' />
+            <img src="https://christopher-portfolio.s3.amazonaws.com/images/selfie.jpg" alt='self' />
             </div>
         </div>
         

@@ -5,41 +5,49 @@ const Projects = () => {
 
     const itemData = [
         {
-            img: require("../../../assets/images/SakugaStudy.png"),
+            img: "https://christopher-portfolio.s3.amazonaws.com/images/SakugaStudy.png",
             title: "Sakuga Study"
         },
         {
-            img: require("../../../assets/images/EpicBot.jpg"),
+            img: "https://christopher-portfolio.s3.amazonaws.com/images/EpicBot.jpg",
             title: "Epic Bot"
         },
         {
-            img: require("../../../assets/images/AiAssistant.png"),
+            img: "https://christopher-portfolio.s3.amazonaws.com/images/AiAssistant.png",
             title: "AI Assistant"
+        },
+        {
+            img: "https://christopher-portfolio.s3.amazonaws.com/images/MockMedia.png",
+            title: "Mock Media"
         }
     ]
     const videoData = [
         {
-            video: require("../../../assets/videos/SakugaStudy.mp4"),
+            video: "https://christopher-portfolio.s3.amazonaws.com/videos/SakugaStudy.mp4",
             title: "Sakuga Study"
         },
         {
-            video: require("../../../assets/videos/EpicBot.mp4"),
+            video: "https://christopher-portfolio.s3.amazonaws.com/videos/EpicBot.mp4",
             title: "EpicBot"
         },
         {
-            video: require("../../../assets/videos/AiAssistant.mp4"),
+            video: "https://christopher-portfolio.s3.amazonaws.com/videos/AiAssistant.mp4",
             title: "AI Assistant"
+        },
+        {
+            video: "https://christopher-portfolio.s3.amazonaws.com/videos/MockMedia.mp4",
+            title: "Mock Media"
         }
     ]
 
     return (
         <div className="project">
             <div className="project-element">
-            <h2>Sakuga Study</h2>
-            <VideoHover videoSrc={videoData[0].video} 
-            imgSrc={itemData[0].img}
-            imgAlt={itemData[0].title} 
-            linkUrl={"https://github.com/Chrisyk/SakugaStudy"}/>
+            <h2>Mock Media</h2>
+            <VideoHover videoSrc={videoData[3].video} 
+            imgSrc={itemData[3].img}
+            imgAlt={itemData[3].title} 
+            linkUrl={"https://github.com/Chrisyk/MockMedia"}/>
             </div>
             <div className="project-element">
             <h2>AI Assistant</h2>
@@ -47,6 +55,13 @@ const Projects = () => {
             imgSrc={itemData[2].img}
             imgAlt={itemData[2].title} 
             linkUrl={"https://github.com/Chrisyk/AI-Assistant"}/>
+            </div>
+            <div className="project-element">
+            <h2>Sakuga Study</h2>
+            <VideoHover videoSrc={videoData[0].video} 
+            imgSrc={itemData[0].img}
+            imgAlt={itemData[0].title} 
+            linkUrl={"https://github.com/Chrisyk/SakugaStudy"}/>
             </div>
             <div className="project-element">
             <h2>Epic Bot</h2>

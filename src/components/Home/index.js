@@ -39,7 +39,7 @@ const Home = () => {
                     <h1>
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass} _12`}>i,</span>
-                    <img src={require('../../assets/images/handwave.png')} alt="Hi" />
+                    <img src="https://christopher-portfolio.s3.amazonaws.com/images/handwave.png" alt="Hi" />
                     <br />
                     <span className={`${letterClass} _14`}>I</span>
                     <span className={`${letterClass} _15`}>'m</span>

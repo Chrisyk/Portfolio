@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faJsSquare, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders'; // Add this import statement
 import { Link } from 'react-router-dom';
-import resumePDF from '../../assets/Documents/Resume.pdf';
 
 
 const About = () => {
@@ -36,7 +35,7 @@ const About = () => {
                     skills and expand my knowledge.</p>
                 <p>Other than programming I also enjoy learning new languages such as Chinese and Japanese.</p>
                 <br />
-                <Link to={resumePDF} target="_blank" className='flat-button'>MY RESUME</Link>
+                <Link to="https://christopher-portfolio.s3.amazonaws.com/Documents/resume.pdf" target="_blank" className='flat-button'>MY RESUME</Link>
             </div>
 
             <div className="stage-cube-cont">
