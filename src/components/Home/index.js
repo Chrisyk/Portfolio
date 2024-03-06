@@ -49,7 +49,7 @@ const Home = () => {
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={18} />
                     </h1>
-                    <h2>Frontend Developer / Undergraduate Researcher</h2>
+                    <h2>Fullstack Developer / Undergraduate Researcher</h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                     <div className="languages">
                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
