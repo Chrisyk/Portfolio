@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a portfolio website built with React and Sass. It showcases my skills leveraging front-end and back-end frameworks. Services like EmailJS streamline communication, while Sass provides a user-friendly UI compatible with mobile devices.
+This portfolio website demonstrates my skills as a software developer. It leverages front-end and back-end frameworks such as Create React App and Express.js. Additionally, services like EmailJS streamline communication, while Sass provides a user-friendly UI compatible with mobile devices.
 
 ## Technologies Used
 
