@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a portfolio website built with React and Sass. It showcases my skills and projects with an elegant UI/UX.
+This is a portfolio website built with React and Sass. It showcases my skills leveraging front-end and back-end frameworks. Services like EmailJS streamline communication, while Sass provides a user-friendly UI compatible with mobile devices.
 
 ## Technologies Used
 
